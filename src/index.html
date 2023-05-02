@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../dist/output.css" rel="stylesheet">
+    <title>Login</title>
+</head>
+<body>
+    <div class="h-screen w-full flex max-sm:flex-col">
+        <div class="h-full w-2/4 bg-purple-rain max-sm:w-full max-sm:h-1/4 bg-pattern">
+        </div>
+        <div class="h-full w-2/4 bg-white-black flex flex-col justify-center p-24 max-md:w-full max-md:p-14 text-white selection:bg-purple-rain selection:text-white">
+            <h1 class="text-2xl font-bold self-center">Login</h1>
+            <label for="usuario" class="mt-5 mb-2 font-bold">Usuário</label>
+            <input type="text" id="usuario" class="outline-none p-1 px-2 bg-white-black-200">
+            <label for="senha" class="mt-5 mb-2 font-bold">Senha</label>
+            <input type="password" id="senha" class="outline-none p-1 px-2 bg-white-black-200">
+            <div class="flex justify-between max-md:flex-col mt-5">
+                <div>
+                    <input type="checkbox" class="accent-purple-rain" id="relembrar">
+                    <label for="relembrar">Lembrar acesso</label>
+                </div>
+                <a href="#" class="underline hover:text-purple-rain">Esqueci a senha</a>
+            </div>
+            
+            <input type="submit" value="Entrar" class="bg-purple-rain p-2 rounded-md mt-5 cursor-pointer">
+        </div>
+    </div>
+</body>
+</html>
