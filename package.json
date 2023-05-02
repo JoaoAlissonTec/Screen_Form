@@ -1,0 +1,21 @@
+{
+  "name": "screen_form",
+  "version": "1.0.0",
+  "description": "",
+  "main": "tailwind.config.js",
+  "scripts": {
+    "tailwind": "npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch",
+    "prettier": "npx prettier --write **/*.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JoaoAlissonTec/Screen_Form.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JoaoAlissonTec/Screen_Form/issues"
+  },
+  "homepage": "https://github.com/JoaoAlissonTec/Screen_Form#readme"
+}
